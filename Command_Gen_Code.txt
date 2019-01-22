@@ -2,4 +2,4 @@ java -jar swagger-codegen-cli-2.2.1.jar generate -i swagger.yaml --api-package c
 
 
 
-java -jar swagger-codegen-cli-2.2.1.jar generate -i swagger.yaml --api-package com.howtodoinjava.example.employee.api --model-package com.howtodoinjava.example.employee.model --group-id com.howtodoinjava.example --artifact-id spring-swagger-codegen-employee --artifact-version 0.0.1-SNAPSHOT -l spring -o spring-swagger-codegen-employee
+java -jar swagger-codegen-cli-2.2.1.jar generate -i swagger.yaml --api-package com.howtodoinjava.example.employee.api --model-package com.howtodoinjava.example.employee.model --group-id com.howtodoinjava.example --artifact-id swagger-codegen-employee --artifact-version 0.0.1-SNAPSHOT  -l -o swagger-codegen-employee
